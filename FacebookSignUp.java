@@ -9,6 +9,13 @@ package facebooksignup;
  *
  * @author Larsen and Raffy
  */
-public class Function {
+public class FacebookSignUp {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

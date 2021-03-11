@@ -7,7 +7,7 @@ package facebooksignup;
 
 /**
  *
- * @author Larsen
+ * @author Larsen and Raffy
  */
 public class SignUp {
     
