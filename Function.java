@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Larsen and Raffy
  */
-public class Function {
+public class Function extends SignUp {
    
    private String Welcome,Welcome1,results;
    
