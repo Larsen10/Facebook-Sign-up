@@ -15,7 +15,16 @@ public class FacebookSignUp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+    Function function = new Function();
+
+    System.out.println(function.signup());
+    
+    function.functionName();
+    function.functionPEC();
+    
+    System.out.println(function.welcome());
+    System.out.println( function.result() );
     }
     
 }
