@@ -17,7 +17,7 @@ public class FacebookSignUp {
      */
     public static void main(String[] args) {
     
-    Function function = new Function();
+Function function = new Function();
 
     System.out.println(function.signup());
     
@@ -26,6 +26,7 @@ public class FacebookSignUp {
     
     System.out.println(function.welcome());
     System.out.println( function.result() );
+    
     }
     
 }
