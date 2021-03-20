@@ -31,4 +31,31 @@ public class Function extends SignUp {
                     "-----------------------------------"; 
    }
    
+   public void functionName(){
+    String Fname,Mname,Lname;
+    
+    System.out.print("First Name: ");
+    Fname= scan.next();
+    System.out.print("Middle Initial: ");
+    Mname= scan.next();
+    System.out.print("Last Name: ");
+    Lname= scan.next();
+    setName(Fname,Mname,Lname);
+ 
+}
+   public void functionPEC(){
+    String pw,email,contactNumber; 
    
+    System.out.print("Create Password: ");
+    pw= scan.next();
+    setpw(pw);
+    
+    System.out.print("Email: ");
+    email= scan.next();
+    setemail(email);
+    
+    System.out.print("Contact Number: ");
+    contactNumber= scan.next();
+    setnumber(contactNumber);
+   }
+}
